@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D598DF">
+
+    <ImageButton
+        android:id="@+id/ib_close"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:scaleType="fitEnd"
+        android:src="@drawable/close_btn"
+        android:tint="#070404" />
+
+    <TextView
+        android:id="@+id/add_movie_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="504dp"
+        android:text="@string/select_a_movie_list"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textSize="20sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/pop_up_select_movie_recycler_view"
+        android:layout_width="250dp"
+        android:layout_height="420dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="230dp"
+        android:orientation="vertical"
+        android:scrollbars="vertical" />
+
+
+
+
+</RelativeLayout>

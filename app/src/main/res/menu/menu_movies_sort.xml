@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/sortByTitle"
+        android:enabled="true"
+        android:title="@string/title"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sortByGenre"
+        android:enabled="true"
+        android:title="@string/genre"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sortByDate"
+        android:enabled="true"
+        android:title="@string/Release_Date"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sortByRating"
+        android:enabled="true"
+        android:title="@string/Top_rated"
+        app:showAsAction="never" />
+</menu>
