@@ -1,0 +1,2 @@
+# ProjectManagement-SoftwareEngineering [![Build Status](https://dev.azure.com/LucJoosten1234/LucJoosten1234/_apis/build/status/LucJoostenNL.ProjectManagement-SoftwareEngineering?branchName=master)](https://dev.azure.com/LucJoosten1234/LucJoosten1234/_build/latest?definitionId=8&branchName=master)
+The goal was not to get the best results, but the stated goal was to have a proper and successful process with the collaboration within our group. It was mostly documention but we were proud of the result.
